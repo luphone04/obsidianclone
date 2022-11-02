@@ -72,6 +72,8 @@ html,body{
 .mid-page{
   padding-top: 150px;
   margin-bottom: 80px;
+  background-image: url(https://obsidian.md/images/starfield.svg);
+  padding: 150px 0 80px 0;
 }
 
 .new-version-btn{
