@@ -1,70 +1,592 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <title>Obsidian</title>
-</head>
-<body>
-  <div class="navbar">
-    <div class="first-section">
-      <a href="https://obsidian.md/" class="home-link">
-        <img src="https://play-lh.googleusercontent.com/McJwuNc1Gbs8-XrPCH77Ar-qZMGujN6L0_zb_jv_0oBe2vwnmIboESQjPsTSu1uINbg" class="obsidian-logo">
-      <span class="obsidian-name">OBSIDIAN</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Obsidian</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="first-section">
+        <a href="https://obsidian.md/" class="home-link">
+          <img
+            src="https://play-lh.googleusercontent.com/McJwuNc1Gbs8-XrPCH77Ar-qZMGujN6L0_zb_jv_0oBe2vwnmIboESQjPsTSu1uINbg"
+            class="obsidian-logo"
+          />
+          <span class="obsidian-name">OBSIDIAN</span>
+        </a>
+      </div>
+
+      <a href="https://twitter.com/obsdmd" class="twitter-link">
+        <svg
+          fill="#555"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 50 50"
+          width="34px"
+          height="24px"
+        >
+          <path
+            d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"
+          ></path>
+        </svg>
       </a>
+
+      <a href="https://obsidian.md/pricing" class="app-header-link">Pricing</a>
+
+      <a href="https://obsidian.md/mobile" class="app-header-link">Mobile</a>
+
+      <a href="https://obsidian.md/plugins" class="app-header-link">Plugins</a>
+
+      <a href="https://obsidian.md/sync" class="app-header-link">Sync</a>
+
+      <a href="https://obsidian.md/publish" class="app-header-link">Publish</a>
+
+      <a href="https://obsidian.md/community" class="app-header-link"
+        >Community</a
+      >
+
+      <a href="https://obsidian.md/account" class="app-header-link">Account</a>
     </div>
 
+    <div class="mid-page">
+      <div class="new-version-btn-container">
+        <button class="new-version-btn">
+          New! Obsidian 1.0 is here. Learn more ->
+        </button>
+      </div>
+      <div class="motto">
+        A second brain, <br />
+        for you, forever.
+      </div>
+      <div class="info">
+        Obsidian is a powerful and extensible knowledge base <br />
+        that works on top of your local folder of plain text files.
+      </div>
 
-    <a href="https://twitter.com/obsdmd" class="twitter-link">
-      <svg fill="#555" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="34px" height="24px">
-        <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path>
-    </svg>
-    </a>
+      <div class="download-button-1-container">
+        <button class="download-button-1">
+          Get Obsidian for MacOs <br />
+          <span class="button-version">Version 1.0.3</span>
+        </button>
+      </div>
 
-    <a href="https://obsidian.md/pricing" class="app-header-link">Pricing</a>
+      <div class="platform-link-container">
+        Also available for
+        <a
+          href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/Obsidian.1.0.3.exe"
+          class="platform-link"
+        >
+          Windows,</a
+        >
+        <a
+          href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/Obsidian-1.0.3.AppImage"
+          class="platform-link"
+          >Linux (AppImage),
+        </a>
+        <a
+          href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/obsidian_1.0.3_amd64.snap"
+          class="platform-link"
+          >Linux (Snap),
+        </a>
+        and
+        <a
+          href="https://flathub.org/apps/details/md.obsidian.Obsidian"
+          class="platform-link"
+          >Linux (Flatpak).</a
+        >
+        <a href="https://obsidian.md/download" class="platform-link">
+          More platforms.</a
+        >
+      </div>
 
-    <a href="https://obsidian.md/mobile" class="app-header-link">Mobile</a>
+      <div class="app-download">
+        <a
+          href="https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442"
+          class="app-store-link"
+          ><img
+            src="https://obsidian.md/images/app-store-badge.svg"
+            class="app-store-img"
+        /></a>
+        <a
+          href="https://play.google.com/store/apps/details?id=md.obsidian"
+          class="play-store-link"
+          ><img
+            src="https://obsidian.md/images/play-store-badge.svg"
+            class="play-store-img"
+        /></a>
+      </div>
 
-    <a href="https://obsidian.md/plugins" class="app-header-link">Plugins</a>
-
-    <a href="https://obsidian.md/sync" class="app-header-link">Sync</a>
-
-    <a href="https://obsidian.md/publish" class="app-header-link">Publish</a>
-
-    <a href="https://obsidian.md/community" class="app-header-link">Community</a>
-
-    <a href="https://obsidian.md/account" class="app-header-link">Account</a>
-  </div>
-
-  <div class="mid-page">
-    <div class="new-version-btn-container">
-      <button class="new-version-btn">New! Obsidian 1.0 is here. Learn more -> </button>
+      <div class="advertise-picture-container">
+        <img
+          src="https://obsidian.md/images/screenshot-1.0-hero-combo.png"
+          class="advertise-picture"
+        />
+      </div>
     </div>
-    <div class="motto">
-      A second brain, <br> for you, forever.
-    </div>
-    <div class="info">
-      Obsidian is a powerful and extensible knowledge base <br> that works on top of your local folder of plain text files.
+
+    <div class="review-section">
+      <div class="review">
+        <div class="review-text">
+          I don’t give app of the year awards, but I would
+          <span class="highlight">100% give it to Obsidian </span>for slowly
+          taking over almost everything I do that has anything to do with text
+          files.
+        </div>
+        <div class="review-author">CGP Grey</div>
+        <div class="author-job">YouTuber personality</div>
+      </div>
+      <div class="review">
+        <div class="review-text">
+          Being so extensible and personalizable, Obsidian is, quite simply, a
+          <span class="highlight">dream come true</span> for Markdown writers.
+        </div>
+        <div class="review-author">Federico Viticci @viticci</div>
+        <div class="author-job">Founder of MacStories</div>
+      </div>
+      <div class="review">
+        <div class="review-text">
+          Obsidian looks good, works great, and most importantly, I
+          <span class="highlight">own and control</span>my data.
+        </div>
+        <div class="review-author">Gonçalo Silva @goncalossilva</div>
+        <div class="author-job">CTO of Doist, the company behind Todoist</div>
+      </div>
+      <div class="review">
+        <div class="review-text">
+          Obsidian is my current choice for writing and organizing notes on
+          <span class="highlight">any complicated subject</span>. Feels like the
+          closest anyone has come yet to realizing the promise of hypertext as a
+          tool of thought.
+        </div>
+        <div class="review-author">Graydon Hoare</div>
+        <div class="author-job">Creator of the Rust programming language</div>
+      </div>
     </div>
 
-    <div class="download-button-1-container">
-      <button class="download-button-1">Get Obsidian for MacOs <br> <span class="button-version">Version 1.0.3</span> </button>
+    <div class="feature-row">
+      <div class="feature-inner-row">
+        <div class="motto-header">Everything is connected</div>
+        <p class="motto-line-1">
+          The human brain is non-linear: we jump from idea to idea, all the
+          time. Your second brain should work the same.
+        </p>
+        <div class="motto-line-2">
+          In Obsidian, making and following
+          <span class="motto-highlight">connections</span> is frictionless. Tend
+          to your notes like a gardener; at the end of the day, sit back and
+          marvel at your own knowledge graph.
+        </div>
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/connection-hub.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">GRAPH VIEW</span>
+          </div>
+          <div class="first-paragraph">
+            The graph is your knowledge at a glance. Explore, observe, and stay
+            motivated. With group, filter, and display options, see things your
+            way.
+          </div>
+          <div class="first-paragraph">
+            Local graph shows connections around you. Get inspired while
+            writing.
+          </div>
+          <div class="learn-more-block">
+            <a
+              href="https://help.obsidian.md/Plugins/Graph+view"
+              class="learn-more-link"
+              >Learn more -></a
+            >
+          </div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/backlink.png"
+              class="first-block-img"
+            />
+            <span class="block-title">BACKLINKS</span>
+          </div>
+          <div class="first-paragraph">Converge your thoughts.</div>
+          <div class="first-paragraph">
+            Broaden your view to see this note in other contexts. Link relevant
+            pages with one click.
+          </div>
+          <div class="learn-more-block">
+            <a
+              href="https://help.obsidian.md/Plugins/Backlinks"
+              class="learn-more-link"
+              >Learn more -></a
+            >
+          </div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/outgoing-link.png"
+              class="first-block-img"
+            />
+            <span class="block-title">OUTGOING LINKS</span>
+          </div>
+          <div class="first-paragraph">Diverge your thoughts.</div>
+          <div class="first-paragraph">
+            See all existing and potential links from this note. Turn mentions
+            into links with one click.
+          </div>
+          <div class="learn-more-block">
+            <a
+              href="https://help.obsidian.md/Plugins/Outgoing+links"
+              class="learn-more-link"
+              >Learn more -></a
+            >
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="platform-link-container">
-      Also available for 
-      <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/Obsidian.1.0.3.exe" class="platform-link"> Windows,</a> 
-      <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/Obsidian-1.0.3.AppImage" class="platform-link">Linux (AppImage), </a>
-      <a href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/obsidian_1.0.3_amd64.snap" class="platform-link">Linux (Snap), </a>
-      and 
-      <a href="https://flathub.org/apps/details/md.obsidian.Obsidian" class="platform-link">Linux (Flatpak).</a>
-      <a href="https://obsidian.md/download" class="platform-link"> More platforms.</a>
+    <div class="extensive-row">
+      <div class="extensive-inner-row">
+        <div class="extensive-header">Extensively extensible</div>
+        <p class="extensive-line-1">
+          Note-taking is incredibly personal. Tried every app, but something
+          always irks you? You deserve better.
+        </p>
+        <div class="extensive-line-2">
+          For those who can't custom-build a solution for themselves, Obsidian
+          is as close as you can get, with plugins, themes, and custom CSS at
+          your disposal.
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/cubes.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">YOUR KNOWLEDGE BUILDING BLOCKS</span>
+          </div>
+          <div class="first-paragraph">
+            Obsidian is built to be extensible from the ground up. We want you
+            to build your own system, play with it, tweak it, until you're
+            happy.
+          </div>
+          <div class="first-paragraph">
+            Obsidian is a versatile toolbox: with 25 core plugins,
+            <a href="https://obsidian.md/plugins" class="block-link"
+              >688 community plugins</a
+            >, and 136 themes, plus custom styling, you can tweak Obsidian to
+            work and look exactly how you want it.
+          </div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/plugin.png"
+              class="first-block-img"
+            />
+            <span class="block-title">MIX AND MATCH</span>
+          </div>
+          <div class="first-paragraph">
+            Some community plugins do a single thing extremely well, like
+            <a
+              href="https://github.com/liamcain/obsidian-calendar-plugin"
+              class="block-link"
+              >Calendar</a
+            >
+            and
+            <a
+              href="https://github.com/mgmeyers/obsidian-kanban"
+              class="block-link"
+              >Kanban</a
+            >. Others unlock endless possibilities:
+            <a
+              href="https://github.com/blacksmithgu/obsidian-dataview"
+              class="block-link"
+              >Dataview</a
+            >
+            and
+            <a
+              href="https://github.com/SilentVoid13/Templater"
+              class="block-link"
+              >Templater</a
+            >
+            are great examples.
+          </div>
+          <div class="first-paragraph">
+            They are super easy to grab: the built-in plugin marketplace lets
+            you install them with one click. And the sum of the parts is greater
+            than the whole: some plugins work even better together.
+          </div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/crafting.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">DO IT YOURSELF</span>
+          </div>
+          <div class="first-paragraph">
+            Looking for something unique? There's no need to wait for someone
+            else to make it! Whether you have programming experience or not, you
+            can try your hands at making your Obsidian plugin.
+          </div>
+          <div class="first-paragraph">
+            All community plugins are available on GitHub if you like to study
+            them. Our developer community is also here to help!
+          </div>
+        </div>
+
+        <div class="learn-more-middle-block">
+          <a href="https://help.obsidian.md/Plugins" class="learn-more-link"
+            >Learn more -></a
+          >
+        </div>
+      </div>
     </div>
-  </div>
-</body>
+
+    <div class="security-row">
+      <div class="security-inner-row">
+        <div class="security-header">Notes for your grandchildren</div>
+        <p class="security-line-1">
+          In our age when cloud services can
+          <a
+            href="https://techcrunch.com/2013/07/31/evernote-competitor-catch-com-shuts-down-its-note-taking-apps-company-heading-in-different-direction/"
+           class="security-link">shut</a>
+          <a href="https://www.theverge.com/2014/5/22/5741602/one-time-evernote-pinterest-rival-springpad-to-close-its-doors" class="security-link">down</a>
+          , 
+          <a href="https://gadgets.ndtv.com/apps/news/microsoft-to-do-new-features-wunderlist-shuts-down-2224833" class="security-link">get</a>
+          <a href="https://www.theverge.com/2012/3/12/2865638/twitter-acquires-posterous-blogging-platform" class="security-link">bought</a>
+          , or 
+          <a href="https://techcrunch.com/2016/12/14/evernotes-new-privacy-policy-allows-employees-to-read-your-notes/" class="security-link">change privacy policy</a>
+          any day, the last
+          thing you want is proprietary format and data lock-in.
+        </p>
+        <div class="security-line-2">
+          With Obsidian, <span class="motto-highlight">your data sits in a local folder</span>. Never leave your
+          life's work held hostage in the cloud again.
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/gem.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">FUTURE-PROOF FORMAT</span>
+          </div>
+          <div class="first-paragraph">
+            Obsidian uses Markdown. Markdown is widely used by sites like Reddit
+            and GitHub and not going away anytime soon.
+          </div>
+          <div class="first-paragraph">
+            Markdown is designed to be human readable. It's not obfuscated by
+            encoding; you can directly edit the source files with Markdown
+            editors, or edit them automatically with scripts.
+          </div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/disk.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">TOTAL CONTROL</span>
+          </div>
+          <div class="first-paragraph">
+            Your notes live on your device, period. You can encrypt them or back
+            them up however you want; it's your decision, not ours.
+          </div>
+          <div class="first-paragraph">
+            Plain text files let you do various sync, encryption, and data
+            processing on top of it. Obsidian plays nice with Dropbox,
+            Cryptomator, and any software that works with plain text files.
+          </div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/camper.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">ALWAYS AVAILABLE</span>
+          </div>
+          <div class="first-paragraph">
+            No internet? No problem. Obsidian works completely offline, internet
+            or service issues will never be your problem.
+          </div>
+          <div class="first-paragraph">
+            Enjoy reading and working on your notes anytime, anywhere.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-row">
+      <div class="feature-inner-row">
+        <div class="motto-header">Vibrant community</div>
+        <p class="motto-line-1">
+          With more than 70,000 members in our Discord chat and 35,000 members on our forum, Obsidian has one of the largest note-taking communities.
+        </p>
+        <div class="motto-line-2">
+          Our community welcomes anyone who uses Obsidian or is interested in Obsidian, no matter your language, country, or field. Come join us!
+        </div>
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/book.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">LEARN TOGETHER</span>
+          </div>
+          <div class="first-paragraph">
+            Our community is extremely friendly and helpful to new members. Got a question? Ask away!
+          </div>
+          <div class="first-paragraph">
+            We also share our graph view, our notes, and our learning journey with each other.
+          </div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/anvil.svg"
+              class="first-block-img"
+            />
+            <span class="block-title">CREATE TOGETHER</span>
+          </div>
+          <div class="first-paragraph">Most of the community plugin and theme developers also hang out in our community. Learn together and make something awesome! Teamwork makes the dream work.</div>
+        </div>
+
+        <div class="first-block">
+          <div class="first-block-title">
+            <img
+              src="https://obsidian.md/images/globe.png"
+              class="first-block-img"
+            />
+            <span class="block-title">INTERNATIONAL COMMUNITY</span>
+          </div>
+          <div class="first-paragraph">Obsidian is translated in to 22 languages and counting. Our Discord has channels for speakers of many languages—you don't have to talk about Obsidian and ask questions in English!</div>
+        </div>
+
+        <div class="learn-more-middle-block">
+          <a href="https://help.obsidian.md/Plugins" class="learn-more-link"
+            >Learn more -></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="last-row">
+      <div class="last-inner-row">
+        <div class="last-row-motto">A second brain,<br> for you, forever.</div>
+        <div class="download-button-1-container">
+          <button class="download-button-1">
+            Get Obsidian for MacOs <br />
+            <span class="button-version">Version 1.0.3</span>
+          </button>
+        </div>
+        <div class="platform-link-container">
+          Also available for
+          <a
+            href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/Obsidian.1.0.3.exe"
+            class="platform-link"
+          >
+            Windows,</a
+          >
+          <a
+            href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/Obsidian-1.0.3.AppImage"
+            class="platform-link"
+            >Linux (AppImage),
+          </a>
+          <a
+            href="https://github.com/obsidianmd/obsidian-releases/releases/download/v1.0.3/obsidian_1.0.3_amd64.snap"
+            class="platform-link"
+            >Linux (Snap),
+          </a>
+          and
+          <a
+            href="https://flathub.org/apps/details/md.obsidian.Obsidian"
+            class="platform-link"
+            >Linux (Flatpak).</a
+          >
+          <a href="https://obsidian.md/download" class="platform-link">
+            More platforms.</a
+          >
+        </div>
+        <div class="app-download">
+          <a
+            href="https://apps.apple.com/us/app/obsidian-connected-notes/id1557175442"
+            class="app-store-link"
+            ><img
+              src="https://obsidian.md/images/app-store-badge.svg"
+              class="app-store-img"
+          /></a>
+          <a
+            href="https://play.google.com/store/apps/details?id=md.obsidian"
+            class="play-store-link"
+            ><img
+              src="https://obsidian.md/images/play-store-badge.svg"
+              class="play-store-img"
+          /></a>
+        </div>
+  
+      </div>
+    </div>
+    <div class="footer">
+      <div class="inner-footer">
+        <ul class="last-column">
+          <li class="footer-header">Obsidian</li>
+          <li><a href="https://obsidian.md/about">About us</a></li>
+          <li><a href="https://trello.com/b/Psqfqp7I/obsidian-roadmap">Roadmap</a></li>
+          <li><a href="https://merch.obsidian.md/">Merch Store</a></li>
+          <li><a href="https://twitter.com/obsdmd">Twitter</a></li>
+          <li><a href="https://www.youtube.com/channel/UCRP5KXKq8Ytc6IH06VWRmkQ">YouTube Channel</a></li>
+        </ul>
+        <ul class="last-column">
+          <li class="footer-header">Help</li>
+          <li><a href="https://publish.obsidian.md/help">Documentation</a></li>
+          <li><a href="https://obsidian.md/faq">FAQ</a></li>
+          <li><a href="https://forum.obsidian.md/c/announcements">Release notes</a></li>
+        </ul>
+        <ul class="last-column">
+          <li class="footer-header">Community</li>
+          <li><a href="https://discord.gg/obsidianmd">Community Discord</a></li>
+          <li><a href="https://forum.obsidian.md/">Forum</a></li>
+          <li><a href="https://forum-zh.obsidian.md/">中文论坛</a></li>
+        </ul>
+        <ul class="last-column">
+          <li class="footer-header">Spread the word</li>
+          <li><a href="https://www.producthunt.com/products/obsidian">Featured on Product Hunt</a></li>
+          <li><a href="https://alternativeto.net/software/obsidian/about/">Like us on AlternativeTo</a></li>
+          <li><a href="https://www.capterra.ca/software/1018804/obsidian">Review us on Capterra</a></li>
+          <li><a href="https://www.slant.co/topics/4962/viewpoints/33/~personal-knowledge-base-apps~obsidian">Like us on Slant</a></li>
+        </ul>
+        <ul class="last-column">
+          <li class="footer-header">Legal</li>
+          <li><a href="https://obsidian.md/eula">License Information (EULA)</a></li>
+          <li><a href="https://obsidian.md/terms">Terms of Service</a></li>
+          <li><a href="https://obsidian.md/privacy-statement">Privacy Statement</a></li>
+          <li><a href="https://obsidian.md/privacy">Privacy policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="obi2022">© 2022 Obsidian</div>
+  </body>
 </html>
